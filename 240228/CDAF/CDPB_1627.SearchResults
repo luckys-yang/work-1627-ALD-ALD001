@@ -1,0 +1,5 @@
+---- menuModeStill Matches (4 in 4 files) ----
+App_menu_api.c (host\app_status\sts_menu):UINT8 menuModeStill (UINT8 layer, UINT8 item, UINT16 msg) USING_0
+App_menu_api.h (host\inc\app):UINT8 menuModeStill (UINT8 layer, UINT8 item, UINT16 msg);
+App_menu_res.h (host\inc\app):"Still Record",		"mode_still.bmp",		[()menuModeStill],
+App_menu_tab1.c (host\app_status\sts_menu):	menuModeStill,	menuImageSizeInit,	menuImagesizeSet,	menuImagesizeSet,
